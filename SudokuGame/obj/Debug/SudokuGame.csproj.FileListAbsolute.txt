@@ -1,0 +1,6 @@
+C:\Users\nicol\OneDrive\Escritorio\SudokuSharp-master\SudokuGame\bin\Debug\SudokuGame.dll
+C:\Users\nicol\OneDrive\Escritorio\SudokuSharp-master\SudokuGame\bin\Debug\SudokuGame.pdb
+C:\Users\nicol\OneDrive\Escritorio\SudokuSharp-master\SudokuGame\obj\Debug\SudokuGame.csproj.AssemblyReference.cache
+C:\Users\nicol\OneDrive\Escritorio\SudokuSharp-master\SudokuGame\obj\Debug\SudokuGame.csproj.CoreCompileInputs.cache
+C:\Users\nicol\OneDrive\Escritorio\SudokuSharp-master\SudokuGame\obj\Debug\SudokuGame.dll
+C:\Users\nicol\OneDrive\Escritorio\SudokuSharp-master\SudokuGame\obj\Debug\SudokuGame.pdb
