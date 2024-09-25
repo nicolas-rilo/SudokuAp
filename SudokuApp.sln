@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34601.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "SudokuApp\Model.csproj", "{6599955F-FE1D-44D4-B489-182ABB2DB762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{5A63194F-46B9-403A-B6A0-0C5BE1F98EFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuGame", "..\SudokuSharp-master\SudokuGame\SudokuGame.csproj", "{5433CACC-17A3-4C3C-9718-EB7858CB153E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web2\Web.csproj", "{766FBCCE-0FD9-485C-8C08-FC375EA531B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6599955F-FE1D-44D4-B489-182ABB2DB762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6599955F-FE1D-44D4-B489-182ABB2DB762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6599955F-FE1D-44D4-B489-182ABB2DB762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6599955F-FE1D-44D4-B489-182ABB2DB762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A63194F-46B9-403A-B6A0-0C5BE1F98EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A63194F-46B9-403A-B6A0-0C5BE1F98EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A63194F-46B9-403A-B6A0-0C5BE1F98EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A63194F-46B9-403A-B6A0-0C5BE1F98EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5433CACC-17A3-4C3C-9718-EB7858CB153E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5433CACC-17A3-4C3C-9718-EB7858CB153E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5433CACC-17A3-4C3C-9718-EB7858CB153E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5433CACC-17A3-4C3C-9718-EB7858CB153E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{766FBCCE-0FD9-485C-8C08-FC375EA531B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766FBCCE-0FD9-485C-8C08-FC375EA531B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766FBCCE-0FD9-485C-8C08-FC375EA531B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766FBCCE-0FD9-485C-8C08-FC375EA531B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45
+		SolutionGuid = {C9C1AAD3-4079-4FDE-A3F8-DF4312BC08C2}
+	EndGlobalSection
+EndGlobal

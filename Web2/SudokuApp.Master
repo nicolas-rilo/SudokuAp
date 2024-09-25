@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SudokuApp.master.cs" Inherits="Es.Udc.DotNet.SudokuApp.Web.SudokuApp" %>
+
+<!DOCTYPE html>
+
+<html>
+<asp:ContentPlaceHolder ID="Head" runat="server">
+
+    <head id="head1" runat="server">
+        <title>SudokuApp</title>
+         <link href="~/Css/Styles.css" rel="stylesheet" type="text/css" asp-append-version="true" />
+
+    </head>
+</asp:ContentPlaceHolder>
+
+<body>
+    <div id="window">
+        <div id="menuLinks">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder_MenuLinks" runat="server">
+
+                            <asp:HyperLink ID="lnkMainPage" runat="server" NavigateUrl="~/Pages/Home.aspx"
+                             meta:resourcekey="lnkMainPage"></asp:HyperLink>
+
+                            <asp:HyperLink ID="lnkUploadSudoku" runat="server" NavigateUrl="~/Pages/Sudoku/UploadSudoku.aspx"
+                             meta:resourcekey="lnkUploadSudoku"></asp:HyperLink>
+
+                            <asp:HyperLink ID="lnkRandomSudoku" runat="server" NavigateUrl="~/Pages/Sudoku/SelectSudokuDificulty.aspx"
+                             meta:resourcekey="lnkRandomSudoku"></asp:HyperLink>
+
+                            <asp:HyperLink  ID="lnkTournament" runat="server" NavigateUrl="~/Pages/Tournament/SelectTournament.aspx"
+                             meta:resourcekey="lnkTournament"></asp:HyperLink>
+
+                    <div id="right-links">
+                            <asp:HyperLink style="float:right" ID="lnkAuthentication" runat="server" NavigateUrl="~/Pages/User/LogIn.aspx"
+                             meta:resourcekey="lnkAuthentication"></asp:HyperLink>
+
+                            <asp:HyperLink style="float:right" ID="lnkLogout" runat="server" NavigateUrl="~/Pages/User/Logout.aspx"
+                             meta:resourcekey="lnkLogout"></asp:HyperLink>
+
+                            <asp:HyperLink style="float:right" ID="lnkRegister" runat="server" NavigateUrl="~/Pages/User/Register.aspx"
+                             meta:resourcekey="lnkRegister"></asp:HyperLink>
+
+                            <asp:HyperLink style="float:right" ID="lnkProfile" runat="server" NavigateUrl="~/Pages/User/Profile.aspx"
+                             meta:resourcekey="lnkProfile"></asp:HyperLink>
+                    </div>
+
+                </asp:ContentPlaceHolder>
+        </div>
+    </div>
+
+
+    <div id="content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder_BodyContent" runat="server" />       
+    </div>
+</body> 
+</html>
